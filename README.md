@@ -1,19 +1,23 @@
-# miniShell
+# MiniShell
 
-## Opis
-Projekt **miniShell** to prosty interpreter poleceń obsługujący:
-- wejście z plików
-- potoki (`pipe`)
-- sygnały
+## Functionalities:
 
-## Jak uruchomić?
-1. Skompiluj projekt za pomocą `make`:
+- Works on all POSIX systems.
+- Invokes system commands.
+- Supports various methods of input.
+- Has a few built-in commands.
+- Supports redirections & pipes.
+- Manages processes in the background.
+- Manages signals.
+
+## How to Run?
+1. Compile the project using `make`:
    ```sh
    make
    ```
-2. Po zakończeniu kompilacji w katalogu `bin/` powinien pojawić się plik wykonywalny `mshell`.
-3. Aby uruchomić miniShell, wykonaj:
+2. After compilation, the binary file `minishell` should appear in the `bin/` directory.
+3. To run miniShell, execute:
    ```sh
-   ./bin/mshell
+   ./bin/minishell
    ```
 
