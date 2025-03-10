@@ -15,9 +15,9 @@
    ```sh
    make
    ```
-2. After compilation, the binary file `minishell` should appear in the `bin/` directory.
+2. After compilation, the binary file `mshell` should appear in the `bin/` directory.
 3. To run miniShell, execute:
    ```sh
-   ./bin/minishell
+   ./bin/mshell
    ```
 
